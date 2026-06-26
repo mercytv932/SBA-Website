@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  background-color: aliceblue;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(48, 5, 5);
+  font-weight: 500;
+  font-family: system-ui, sans-serif;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #0066;
+}
+
+h1 {
+  color: rgb(128, 4, 4);
+}
+
+h2 {
+  color: rgb(5, 5, 133);
+}
+
+p {
+  color: rgb(8, 8, 203);
+}
+
+footer {
+  margin-top: auto;
+  background-color: lightgray;
+  text-align: center;
+  padding: 20px;
+}
+
+.paragraph {
+  font-size: 40px;
+  font-weight: 650;
+  color: rgb(43, 19, 19);
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: sans-serif;
+  font-style: inherit;
+}
